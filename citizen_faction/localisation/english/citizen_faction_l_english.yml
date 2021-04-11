@@ -1,0 +1,46 @@
+﻿l_english:
+ ####################################
+ #	Pop factions
+ ####################################
+ # Demand TITLES are run straight from a pop faction with no
+ # assembled event scope, [Owner.GetName] to get country name.
+ # Tooltips, DESCS and events use the usual [Root.Owner.GetName]
+
+
+ ### NEW FACTIONS
+
+ # Descriptors
+ pft_citizen:0 "Citizen's Faction"
+ pft_citizen_desc:1 "Citizen's Factions seek to uphold the liberties and rights of all Citizens, and seek to ensure that their voice is heard in government.\n\n§LEgalitarian Ethos§!"
+
+ # CITIZENS
+ CITIZEN_DEMOCRACY:0 "Citizen Democracy"
+ CITIZEN_NO_DEMOCRACY:0 "Disenfranchised"
+ CITIZEN_DEMOCRACY_DESC:0 "A §YDemocratic§! government will please the [Root.GetName] and ensure that all Full Citizens have their voice represented."
+ CITIZEN_DIVIDEND:0 "Citizen's Dividend"
+ CITIZEN_NO_DIVIDEND:0 "$CITIZEN_DIVIDEND$"
+ CITIZEN_DIVIDEND_DESC:0 "Having §YSocial Welfare§! or better living standards for all Full Citizens will please the [Root.GetName]."
+ CITIZEN_FIRST:0 "[Root.Owner.GetName] First"
+ CITIZEN_NOT_FIRST:0 "$CITIZEN_FIRST$"
+ CITIZEN_FIRST_DESC:0 "Passing Edicts that §YFortify the Border§! or are §YSubsidies§! for our empire's economy will please the [Root.GetName]."
+ CITIZEN_NATURAL_RIGHTS:0 "Natural Rights"
+ CITIZEN_VIOLATED_RIGHTS:0 "Violated Rights"
+ CITIZEN_NATURAL_RIGHTS_DESC:0 "Ensuring that no Full Citizen is subject to §YMigration Controls§!, §YPopulation Controls§!, or §YSlavery§! will please the [Root.GetName]."
+ CITIZEN_HEREDITARY_CITIZENSHIP:0 "Hereditary Citizenship"
+ CITIZEN_UNHEREDITARY_CITIZENSHIP:0 "$CITIZEN_HEREDITARY_CITIZENSHIP$"
+ CITIZEN_HEREDITARY_CITIZENSHIP_DESC:0 "Respecting Hereditary Citizenship by allowing for §YCitizen Refugees Only§! will please the [Root.GetName]."
+ CITIZEN_AUTONOMY:0 "Political Autonomy"
+ CITIZEN_NOT_AUTONOMOUS:0 "$CITIZEN_AUTONOMY$"
+ CITIZEN_AUTONOMY_DESC:0 "Being the subject of a foreign §YOverlord§! will displease the [Root.GetName]."
+ CITIZEN_NO_STRATIFIED:0 "Anti-Stratification"
+ CITIZEN_STRATIFIED:0 "$CITIZEN_NO_STRATIFIED$"
+ CITIZEN_NO_STRATIFIED_DESC:0 "Letting any Full Citizen of our empire live in a §YStratified Economy§! will greatly displease the [Root.GetName]"
+ 
+ ########################################
+ # FACTION EVENTS
+ ########################################
+ 
+ ### New Events
+ factions.1.desc.citizen:0 "Their members work to secure the liberties and rights of the Citizen's of our empire.\n\n"
+ 
+ factions.2000.desc.citizen:0 "As a result of bringing this faction into their government, they have become more outwardly §HEgalitarian§!.\n\n"
